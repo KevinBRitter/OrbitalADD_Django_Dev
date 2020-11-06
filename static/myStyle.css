@@ -1,0 +1,216 @@
+/* ----------------------------------------------- */
+/* HTML Elements */
+
+body {
+    padding: 2em;
+    margin: 0;
+/*    background-color: aqua;*/
+}
+
+article {
+    border: 1px solid grey;
+    box-shadow: 2px 2px 5px grey;
+    margin: 3em;
+    padding: 1em;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+}
+
+h1 {
+    margin: 20px;
+    padding: 30px;
+    color: #273C2C;
+/*    background-color: #273C2C;*/
+    border: 5px solid #939196;
+    text-align: center;
+    box-shadow: 2px 2px 5px gray;
+}
+
+h2 {
+    color: #009606;
+/*    background-color: #273C2C;*/
+/*    border: 2px solid #0E3D65;*/
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+/*    box-shadow: 2px 2px 5px gray;*/
+}
+
+h3,
+h4 {
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+header {
+    border: 5px solid #939196;
+    background-image:url(images/NetworkSketch.png);
+    background-position: center;
+    background-size: contain;
+    background-color: #273C2C;
+    font-family: sans-serif;
+    padding: .5em;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: #F6B018;
+}
+
+header h1 {
+    color: white;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+header h2 {
+    color: white;
+/*    background-color: #273C2C;*/
+    box-shadow: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+header img {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+hr {
+    border: 1px solid #9F7217;
+    width: 80%;
+    margin: 30px auto;
+}
+
+input {
+    width: 80%;
+}
+
+img {
+    max-width: 800px;
+    margin: 10px;
+    border-radius: 20px;
+    /*    border: 1px solid #0E3D65;*/
+    /*    box-shadow: 2px 2px 5px #0E3D65;*/
+}
+
+li {
+    margin: 5px 3em;
+}
+
+p {
+    margin-left: 3em;
+}
+
+pre {
+    border: 1px solid #009606;
+    border-left: 3px solid #F6B018;
+    border-right: 3px solid #F6B018;
+    box-shadow: 2px 2px 5px grey;
+    background-color: #f0f0f0;
+/*    margin: 2em;*/
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 10px 20px;
+/*    padding: 1em;*/
+}
+
+/* ----------------------------------------------- */
+/* Classes */
+
+.btn-form {
+    width: 200px;
+}
+
+.card {
+    margin: 20px;
+    border: 1px solid #273C2C;
+    width: 40%;
+}
+
+.card-header {
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #273C2C;
+}
+
+.collapse {
+    border: 2px solid #0E3D65;
+    background-color: #eeeeee;
+}
+
+.collapse-header {
+    border: 1px solid #0E3D65;
+    background-color: #0E3D66;
+    padding: 2px;
+}
+
+.collapse-header button {
+    color: #F6B018;
+}
+
+.collapse-header button:hover {
+    color: white;
+    background-color: #0E3D65;
+}
+
+.form-error {
+    color: red;
+}
+
+.fg-line {
+    margin: 2em 20%;
+}
+
+.lesson-table {
+    margin: 5%;
+    padding: 5%;
+}
+
+.login-form {
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px grey;
+    padding: 2em;
+    margin: auto;
+    max-width: 600px;
+}
+
+.page {
+    margin: 5%;
+    padding: 2em;
+    box-shadow: 2px 2px 5px grey;
+    background-color: #eeeeee;
+    border: 3px solid #0E3D65;
+    border-radius: 10px;
+}
+
+.pane {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px grey;
+    padding: 2em;
+}
+
+.pane * {
+    margin: 20px;
+}
+
+.navbar-nav .nav-item.active {
+    /*box-shadow: 2px 2px 5px black;*/
+    font-weight: bold;
+}
