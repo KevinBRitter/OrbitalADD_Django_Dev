@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Home Page{% endblock title %}
+
+{% block page_header %}Home Page{% endblock page_header %}
+{% block body %}
+
+<main>
+
+
+<p>
+    Author and Owner Kevin Ritter
+{#    <a href="http://orbitaladd.com/about/developer.php">Kevin Ritter</a>#}
+</p>
+<p>
+    <img src="{% static 'images/Profile.png' %}" alt="Kevin Ritter">
+</p>
+
+<h3>Blog Posts</h3>
+
+<ul>
+    <li>"place holder for links to blog articles"
+    </li>
+</ul>
+
+
+</main>
+<footer>
+    <a href="http://orbitaladd.com/about/site.php">
+        <div class="logo-text">Copyright &copy; 2020 Orbital ADD</div>
+        <img class="img-rounded img-responsive"
+                    src="http://orbitaladd.com/images/GWLogoKnights.png"
+                    alt="Knights Logo" width="150">
+    </a>
+
+</footer>
+{% endblock body %}
