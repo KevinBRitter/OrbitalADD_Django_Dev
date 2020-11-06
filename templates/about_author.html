@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Kevin Ritter{% endblock title %}
+
+{% block page_header %}About the Developer{% endblock page_header %}
+{% block body %}
+
+<main>
+
+    <p>
+        <img src="{% static 'images/Profile.png' %}" alt="Kevin Ritter">
+    </p>
+
+    <h3>Software Engineer</h3>
+
+    <p>
+        Kevin is a student at the University of Northern Colorado.  He is currently in his last semester in the
+        Software Engineering program.  Consistently one of the top students in his class, Kevin's projects were
+        voted in the top 3 by his peers.
+    </p>
+    <h3>Links</h3>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/ritterkevin">LinkedIn</a></li>
+        <li><a href="https://github.com/KevinBRitter">GitHub</a></li>
+        <li><a href="https://twitter.com/Garpug">Twitter</a></li>
+        <li><a href="http://orbitaladd.com">Orbital ADD Home</a></li>
+    </ul>
+
+</main>
+
+{% endblock body %}
