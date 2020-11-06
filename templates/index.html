@@ -7,14 +7,13 @@
 
 <main>
 
-
-<p>
-    Author and Owner Kevin Ritter
-{#    <a href="http://orbitaladd.com/about/developer.php">Kevin Ritter</a>#}
-</p>
 <p>
     <img src="{% static 'images/Profile.png' %}" alt="Kevin Ritter">
 </p>
+<p>
+    Author and Owner <a href={% url 'about_author' %}>Kevin Ritter</a>
+</p>
+
 
 <h3>Blog Posts</h3>
 
@@ -25,13 +24,5 @@
 
 
 </main>
-<footer>
-    <a href="http://orbitaladd.com/about/site.php">
-        <div class="logo-text">Copyright &copy; 2020 Orbital ADD</div>
-        <img class="img-rounded img-responsive"
-                    src="http://orbitaladd.com/images/GWLogoKnights.png"
-                    alt="Knights Logo" width="150">
-    </a>
 
-</footer>
 {% endblock body %}

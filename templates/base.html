@@ -28,7 +28,14 @@
     </div>
 </header>
 {% block body %}{% endblock body %}
-<footer>{% block footer %}{% endblock footer %}</footer>
+<footer>{% block footer %}
+    <a href={% url 'about_site' %}>
+        <div class="logo-text">Copyright &copy; 2020 Orbital ADD</div>
+        <img class="img-rounded img-responsive"
+                    src="{% static 'images/GWLogoKnights.png' %}"
+                    alt="Knights Logo" width="150">
+    </a>
+{% endblock footer %}</footer>
 </body>
 
 </html>
