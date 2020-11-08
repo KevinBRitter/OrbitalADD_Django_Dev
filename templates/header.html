@@ -1,0 +1,20 @@
+{% load static %}
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h1>Orbital AI Driven Design</h1>
+                <h2>
+                    {% block page_header %}{{ page_header }}{% endblock page_header %}
+                </h2>
+            </div>
+            <div class="logo col-sm-4">
+                <div class="pull-right">
+                    <img class="img-rounded img-responsive"
+                    src="{% static 'images/GWLogoKnights.png' %}"
+                    alt="Knights Logo" width="150">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
