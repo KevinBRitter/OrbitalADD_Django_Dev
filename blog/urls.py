@@ -6,4 +6,6 @@ urlpatterns = [
     path('', views.dashboard, name='dashboard'),
     path('about/site/', views.about_site, name='about_site'),
     path('about/author/', views.about_author, name='about_author'),
+
+    url(r"^accounts/", include("django.contrib.auth.urls")),
 ]
