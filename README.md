@@ -1,6 +1,6 @@
 # Orbital AI Driven Design
 
-[orbitaladd.com](http://www.orbitaladd.pythonanywhere.com)
+[orbitaladd.com](http://orbitaladd.pythonanywhere.com/)
 
 ## Website development project in the python Django framework
 ## Contents
