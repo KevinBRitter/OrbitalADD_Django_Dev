@@ -14,10 +14,12 @@
 * [Fair Use Note](#Fair-Use-Note)
 
 ## Project Purpose
-Build a dynamic website that utilizes a MySQL database to serve up blog posts, 
-manage admin access, and eventually a Django Rest API that lets users store 
-and utilize Machine Learning models without the need to build and train the
-models themselves.  
+The website at orbitaladd is first a blog project to learn web development and 
+share what I've learned in a place of my own.  A feature of the site will be 
+a tool, an API, for anyone who lacks experience in programming or machine learning.  
+This tool will let users add a trained model to the site and then use it remotely 
+to pass in data and get predictions back out.  This black box approach to machine 
+learning as a tool is meant to make it more accessible to the general public.
 
 ## Summary of Tech Stack
 The development build is hosted on [pythonanywhere](http://www.pythonanywhere.com).
