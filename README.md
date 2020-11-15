@@ -9,7 +9,7 @@ Live Site: [orbitaladd.com](http://orbitaladd.pythonanywhere.com/)
 * [Tech Stack](#Tech-Stack)
 * [Local Dev Tools](#Local-Dev-Tools)
 * [Tutorial Shout Outs](#Tutorial-Shout-Outs)
-* [Personal Shout Out](#Personal-Shout-Outs)
+* [Personal Shout Outs](#Personal-Shout-Outs)
 * [Contribution Guidelines](#Contribution-Guidelines)
 * [Fair Use Note](#Fair-Use-Note)
 
