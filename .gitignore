@@ -4,3 +4,4 @@
 *.pyc
 /venv/
 OrbitalADD_Django_Dev/settings.py
+blog/migrations/
