@@ -9,4 +9,6 @@ urlpatterns = [
     path('about/author/', views.about_author, name='about_author'),
 
     url(r"^accounts/", include("django.contrib.auth.urls")),
+
+    path('blog/', views.post_list, name='post_list'),
 ]
