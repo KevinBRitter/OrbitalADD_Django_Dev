@@ -18,3 +18,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+# TODO Consider modifying the Post model to contain a summary paragraph to hold in the all blog list.
+#  If a reader wants more they can click into the individual article via "read more" link

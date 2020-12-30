@@ -31,16 +31,6 @@ h1 {
     box-shadow: 2px 2px 5px gray;
 }
 
-h2 {
-    color: #009606;
-/*    background-color: #273C2C;*/
-/*    border: 2px solid #0E3D65;*/
-    text-align: center;
-    margin: 10px 20px;
-    padding: 10px 20px;
-/*    box-shadow: 2px 2px 5px gray;*/
-}
-
 h3,
 h4 {
     margin: 10px 20px;
@@ -113,10 +103,6 @@ li {
     margin: 5px 3em;
 }
 
-p {
-    margin-left: 3em;
-}
-
 pre {
     border: 1px solid #009606;
     border-left: 3px solid #F6B018;
@@ -170,6 +156,14 @@ pre {
     background-color: #0E3D65;
 }
 
+.content {
+    margin-left: 40px;
+}
+
+.date {
+    color: #828282;
+}
+
 .form-error {
     color: red;
 }
@@ -208,6 +202,17 @@ pre {
 
 .pane * {
     margin: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}
+.post-form textarea, .post-form input{
+    width: 100%;
 }
 
 .navbar-nav .nav-item.active {
